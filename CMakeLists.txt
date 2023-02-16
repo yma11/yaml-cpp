@@ -3,6 +3,7 @@
 ###
 ## Due to Mac OSX we need to keep compatibility with CMake 2.6
 # see http://www.cmake.org/Wiki/CMake_Policies
+add_definitions(-D_GLIBCXX_USE_CXX11_ABI=1)
 cmake_minimum_required(VERSION 2.6)
 # see http://www.cmake.org/cmake/help/cmake-2-8-docs.html#policy:CMP0012
 if(POLICY CMP0012)
